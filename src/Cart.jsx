@@ -2,15 +2,16 @@ import { Link } from "react-router-dom"
 import './Cart.css'
 import logo from './Paradise.png'
 import cart from './cart.jpeg'
-import {useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 function Cart() {
+    const myAlert = () => alert("Coming soon")
 
     {/*}
     const cartItems = useSelector(state => state.cart.cartItems);
     const totalAmount = cartItems.reduce((total, item) => total + item.price * item.quantity, 0);
 */}
-const totalAmount=0;
+    const totalAmount = 0;
     return (
         <main className="main-cart">
             <nav className="nav-cart">
@@ -41,7 +42,9 @@ const totalAmount=0;
                         <p className="p-cart">Total Cart amount:${totalAmount}</p>
                     </li>
 
-
+                    <li>
+                        <button className="button">Clear Cart </button>
+                    </li>
 
                     <li>
                         <Link to="/productListing">
@@ -50,7 +53,7 @@ const totalAmount=0;
                     </li>
                     <li>
                         <Link to="">
-                            <button className="button">Checkout</button>
+                            <button className="button" onClick={myAlert}>Checkout</button>
                         </Link>
                     </li>
                 </ul>
