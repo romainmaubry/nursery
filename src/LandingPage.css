@@ -1,12 +1,19 @@
 .main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     color: white;
+    background-image: url("amazon.jpeg");
+    background-size: cover;
     display: flex;
-    flex-direction: raw;
-    gap: 100px;
+    flex-direction: row;
+    align-items: center;
 }
 
 .section1 {
-    flex: 1;
+    flex: 2;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,7 +21,7 @@
 }
 
 .section2 {
-    flex: 2;
+    flex: 3;
 }
 
 .h1 {
