@@ -7,17 +7,16 @@
     color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
     text-align: center;
     background-color: white;
 }
 
 .nav {
-    background-color: 09c309;
+    background-color:#09c309;
     flex: 1;
 }
 
 .div {
-    color: white;
+    color: black;
     flex: 6;
 }
