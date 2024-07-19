@@ -24,6 +24,10 @@
     flex: 3;
 }
 
+.div2{
+    margin: 20px;
+}
+
 .h1 {
     flex: 1;
 }

@@ -19,6 +19,7 @@ function LandingPage() {
                 </Link>
             </section>
             <section className="section2">
+                <div className="div2">
                 <h2>
                     Welcome to Paradise Nursery, where green meets serenity!
                 </h2>
@@ -38,6 +39,7 @@ function LandingPage() {
                 <p>
                     Join us in our mission to create a greener, healthier world. Visit Paradise Nursery today and experience the beauty of nature at your doorstep.
                 </p>
+                </div>
             </section>
         </main>
     )
