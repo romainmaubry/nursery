@@ -12,7 +12,7 @@ function LandingPage() {
                 <h4>
                     Where Green Meets Serenity
                 </h4>
-                <Link to="productListing">
+                <Link to="/productListing">
                     <button className="button">
                         Get Started
                     </button>*
